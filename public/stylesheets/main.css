@@ -1,0 +1,247 @@
+/*	GENERAL STYLES: ---------------------------------------------------------------------------------*/
+body {
+	background-color: rgba(227, 242, 253, .6);
+	overflow-x: hidden;
+}
+
+ul a i {
+	font-size: 2em;
+}
+
+.irregular-bg {
+	position: absolute;
+	width: 150%;
+	height: 600px;
+	background-color: lightblue;
+	transform: rotate(-5deg);
+	top: -100px;
+	left: -50px;
+	z-index: -1;
+}
+
+.page-content {
+	margin-top: 10vh;
+}
+
+.container {
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 8px 10px rgba(100, 100, 100, .6);
+	margin-bottom: 50px; 
+}
+
+/*	HEADER STYLES: ---------------------------------------------------------------------------------*/
+
+.img-txt {
+	padding: 0;
+	width: 100%;
+	height: 300px;
+	border-radius: 10px;
+	border: 4px solid white;
+	overflow: hidden;
+}
+
+.img1 {
+	background-image: url("../img/plane-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.img2 {
+	background-image: url("../img/plane-2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.img3 {
+	background-image: url("../img/plane-3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.img4 {
+	background-image: url("../img/plane-4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.img5 {
+	background-image: url("../img/plane-5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.img6 {
+	background-image: url("../img/plane-6.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.txt-img {
+	width: 100%;
+	padding: 5px 0;
+	background-color: rgba(0, 0, 0, .4);
+	color: white;
+	text-align: center;
+}
+
+.top-txt {
+	position: relative;
+	top: -18.5%;
+	transition-duration: 0.4s;
+}
+
+.bottom-txt {
+	position: relative;
+	top: 86%;
+	transition-duration: 0.4s;
+}
+
+.img-txt:hover {
+	cursor: pointer;
+}
+
+.img-txt:hover .top-txt{
+	top: 0;
+}
+
+.img-txt:hover .bottom-txt{
+	top: 58%;
+}
+
+/*	POST STYLES: ---------------------------------------------------------------------------------*/
+
+.posts-row {
+	padding: 40px 0;
+	transition-duration: 0.4s;
+}
+
+.posts-row:hover {
+	transform: scale(1.02);
+}
+
+.author-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.author-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.author-desc {
+	text-align: center;
+}
+
+.posts {
+	text-align: center;
+}
+
+.post-title {
+	align-self: flex-start;
+	padding-bottom: 40px;
+}
+
+.post-desc {
+	align-self: center;
+}
+
+/*	EVENTS PAGE STYLES: ---------------------------------------------------------------------------------*/
+
+.default-table {
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+.default-table thead th {
+	font-size: 2em;
+	text-align: center;
+}
+
+.default-table tbody tr{
+	border-bottom: 1px solid black;
+}
+
+.default-table tbody td {
+	padding: 20px 0;
+	font-size: 1.4em;
+}
+
+.result-link {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+/*	ABOUT STYLES: ---------------------------------------------------------------------------------*/
+
+.team-img {
+	width: 100%;
+	height: 90%;
+	margin-top: 5%;
+	border-radius: 20px;
+}
+
+/*	TIPS AND TRICKS STYLES: ---------------------------------------------------------------------------------*/
+
+.tips-img {
+	width: 100%;
+	height: 80vh;
+	margin: 2% 0;
+	border-radius: 20px;
+	background-image: url("../img/plane-2.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.tips-txt {
+	width: 60%;
+	margin: auto;
+	position: relative;
+	top: 25%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .6);
+	border-radius: 10px;
+}
+
+.tricks-txt {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.tricks-img {
+	width: 100%;
+	height: 250px;
+	border: 10px solid white;
+	border-radius: 20px;
+	opacity: .8;
+	background-image: url("../img/plane-6.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+/*	FOOTER STYLES: ---------------------------------------------------------------------------------*/
+
+footer {
+	width: 100%;
+	background-color: lightblue;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 20px;
+}
+
+footer ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+footer i {
+	font-size: 2em;
+}
